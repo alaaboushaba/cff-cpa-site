@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Actualité fiscale | CFF CPA Inc. : particuliers, entreprises et fiducies</title>
+<meta name="description" content="Actualité fiscale de la semaine pour les particuliers, les entreprises et les fiducies au Québec et au Canada, résumée par CFF CPA Inc.">
+<link rel="canonical" href="https://cff-cpa.ca/actualites.html">
+<meta property="og:title" content="Actualité fiscale | CFF CPA Inc.">
+<meta property="og:image" content="https://cff-cpa.ca/cff-logo.jpg">
+<link rel="icon" type="image/jpeg" href="cff-logo.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:opsz,wght@8..60,600&display=swap" rel="stylesheet">
+<style>
+:root{--blue:#0A4D8C;--blue-dk:#073a6b;--green:#0B8A3E;--ink:#1d2733;--muted:#5b6876;--line:#e3e8ee;--bg:#f6f8fa}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:"Source Sans 3",system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);line-height:1.6;font-size:17px;background:#fff}
+a{color:var(--blue)}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+h1,h2,h3{font-family:"Source Serif 4",Georgia,serif;font-weight:600;color:var(--blue-dk);line-height:1.2}
+h2{font-size:2rem;margin-bottom:.6rem}
+h3{font-size:1.15rem;margin-bottom:.4rem}
+.eyebrow{font-weight:700;font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;color:var(--green);margin-bottom:.6rem;display:block}
+.lead{color:var(--muted);max-width:640px}
+
+/* header */
+header{position:sticky;top:0;background:rgba(255,255,255,.96);backdrop-filter:blur(6px);border-bottom:1px solid var(--line);z-index:10}
+.nav{display:flex;align-items:center;justify-content:space-between;height:76px}
+.brand img{height:54px;display:block}
+.nav ul{display:flex;gap:28px;list-style:none;align-items:center}
+.nav ul a{text-decoration:none;color:var(--ink);font-weight:600;font-size:.95rem}
+.nav ul a:hover{color:var(--blue)}
+.lang{border:1px solid var(--line);background:#fff;border-radius:6px;padding:6px 10px;font:600 .85rem inherit;font-family:inherit;color:var(--blue);cursor:pointer}
+.menu-btn{display:none;background:none;border:0;font-size:1.6rem;color:var(--blue);cursor:pointer}
+
+/* hero */
+.hero{background:linear-gradient(180deg,#fff 0%,var(--bg) 100%);padding:88px 0 80px;border-bottom:1px solid var(--line)}
+.hero-grid{display:grid;grid-template-columns:1.4fr 1fr;gap:56px;align-items:center}
+.hero h1{font-size:2.9rem;margin-bottom:1.1rem}
+.hero h1 span{color:var(--green)}
+.hero p{font-size:1.15rem;color:var(--muted);margin-bottom:2rem;max-width:560px}
+.btns{display:flex;gap:14px;flex-wrap:wrap}
+.btn{display:inline-block;padding:13px 24px;border-radius:6px;font-weight:700;text-decoration:none;font-size:1rem}
+.btn-primary{background:var(--blue);color:#fff}
+.btn-primary:hover{background:var(--blue-dk)}
+.btn-ghost{border:1.5px solid var(--blue);color:var(--blue)}
+.card-id{background:#fff;border:1px solid var(--line);border-radius:12px;padding:30px;box-shadow:0 10px 30px rgba(10,77,140,.07)}
+.card-id .name{font-family:"Source Serif 4",Georgia,serif;font-size:1.45rem;color:var(--blue-dk);font-weight:600}
+.card-id .title{color:var(--green);font-weight:700;margin-bottom:18px}
+.card-id ul{list-style:none;border-top:1px solid var(--line);padding-top:16px}
+.card-id li{padding:6px 0 6px 26px;position:relative;color:var(--muted)}
+.card-id li:before{content:"";position:absolute;left:0;top:14px;width:12px;height:12px;background:var(--green);border-radius:2px}
+.card-id .cpa{margin-top:20px;padding-top:18px;border-top:1px solid var(--line)}
+.card-id .cpa img{height:44px;display:block}
+
+/* sections */
+section{padding:84px 0}
+.alt{background:var(--bg)}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:40px}
+.svc{background:#fff;border:1px solid var(--line);border-radius:10px;padding:28px;border-top:4px solid var(--blue)}
+.svc:nth-child(even){border-top-color:var(--green)}
+.svc p{color:var(--muted);font-size:.98rem}
+.svc .tag{display:inline-block;margin-top:12px;font-size:.8rem;font-weight:700;color:var(--blue);background:#eaf1f8;padding:3px 9px;border-radius:4px}
+
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:30px;margin-top:40px;counter-reset:s}
+.step{position:relative;padding-left:62px}
+.step:before{counter-increment:s;content:counter(s);position:absolute;left:0;top:0;width:44px;height:44px;border-radius:50%;background:var(--blue);color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center;font-size:1.1rem}
+.step p{color:var(--muted);font-size:.98rem}
+
+.about{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
+.about p{color:var(--muted);margin-bottom:1rem}
+.facts{list-style:none;background:#fff;border:1px solid var(--line);border-radius:10px;padding:8px 26px}
+.facts li{padding:14px 0;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:16px}
+.facts li:last-child{border-bottom:0}
+.facts b{color:var(--blue-dk)}
+.facts span{color:var(--muted);text-align:right}
+
+.contact{display:grid;grid-template-columns:1fr 1.2fr;gap:56px}
+.contact-info p{color:var(--muted);margin-bottom:1.4rem}
+.contact-info dl div{margin-bottom:14px}
+.contact-info dt{font-weight:700;font-size:.8rem;text-transform:uppercase;letter-spacing:.08em;color:var(--green)}
+.contact-info dd{font-size:1.05rem}
+form{background:#fff;border:1px solid var(--line);border-radius:12px;padding:30px;display:grid;gap:14px}
+label{font-weight:600;font-size:.9rem;display:block;margin-bottom:4px}
+input,select,textarea{width:100%;padding:11px 12px;border:1px solid #cfd7e0;border-radius:6px;font:inherit;font-size:1rem}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--blue);border-color:var(--blue)}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+form .note{font-size:.82rem;color:var(--muted)}
+form button{border:0;cursor:pointer}
+
+footer{background:var(--blue-dk);color:#c9d6e4;padding:44px 0 30px;font-size:.92rem}
+.foot{display:flex;justify-content:space-between;align-items:center;gap:30px;flex-wrap:wrap}
+.foot .logos{display:flex;gap:18px;align-items:center}
+.foot .logos img{height:46px;background:#fff;border-radius:6px;padding:6px 10px}
+.foot small{display:block;margin-top:24px;padding-top:18px;border-top:1px solid rgba(255,255,255,.15);color:#9fb3c8;font-size:.82rem}
+
+[data-en]{}
+body.en [data-fr-only]{display:none}
+body:not(.en) [data-en-only]{display:none}
+
+@media (max-width:900px){
+ .hero-grid,.about,.contact{grid-template-columns:1fr;gap:36px}
+ .grid3,.steps{grid-template-columns:1fr}
+ .hero h1{font-size:2.2rem}
+ .nav ul{display:none;position:absolute;top:76px;left:0;right:0;background:#fff;flex-direction:column;padding:18px;border-bottom:1px solid var(--line);gap:16px}
+ .nav ul.open{display:flex}
+ .menu-btn{display:block}
+ .row2{grid-template-columns:1fr}
+ section{padding:60px 0}
+}
+</style>
+<style>
+.news-hero{padding:64px 0 40px;background:linear-gradient(180deg,#fff 0%,var(--bg) 100%);border-bottom:1px solid var(--line)}
+.news-hero h1{font-size:2.4rem;margin-bottom:.6rem}
+.filters{display:flex;gap:10px;flex-wrap:wrap;margin-top:24px}
+.filters button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:7px 16px;font:600 .9rem "Source Sans 3",sans-serif;color:var(--ink);cursor:pointer}
+.filters button.on{background:var(--blue);border-color:var(--blue);color:#fff}
+.news{display:grid;grid-template-columns:repeat(2,1fr);gap:24px;margin-top:8px}
+.item{background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden;display:flex;flex-direction:column}
+.item .pic{height:150px;display:flex;align-items:center;justify-content:center}
+.item .pic svg{height:110px;width:auto}
+.item .body{padding:22px 24px 24px;display:flex;flex-direction:column;gap:8px;flex:1}
+.meta{display:flex;gap:10px;align-items:center;font-size:.82rem;color:var(--muted)}
+.chip{font-weight:700;font-size:.75rem;text-transform:uppercase;letter-spacing:.06em;padding:3px 9px;border-radius:4px}
+.item h2{font-size:1.2rem;margin:0}
+.item p{color:var(--muted);font-size:.98rem}
+.item .src{margin-top:auto;font-size:.85rem}
+.note{font-size:.85rem;color:var(--muted);margin-top:36px;border-top:1px solid var(--line);padding-top:18px}
+@media (max-width:900px){.news{grid-template-columns:1fr}.news-hero h1{font-size:1.9rem}}
+</style>
+</head>
+<body>
+<header>
+ <div class="wrap nav">
+  <a href="index.html" class="brand"><img src="cff-logo.jpg" alt="CFF CPA Inc."></a>
+  <button class="menu-btn" aria-label="Menu" onclick="document.getElementById('menu').classList.toggle('open')">&#9776;</button>
+  <ul id="menu">
+   <li><a href="index.html#services" data-fr="Services" data-en="Services">Services</a></li>
+   <li><a href="actualites.html" data-fr="Actualités" data-en="Tax news">Actualités</a></li>
+   <li><a href="index.html#contact" data-fr="Contact" data-en="Contact">Contact</a></li>
+   <li><button class="lang" onclick="toggleLang()" id="langBtn">EN</button></li>
+  </ul>
+ </div>
+</header>
+
+<section class="news-hero">
+ <div class="wrap">
+  <span class="eyebrow" data-fr="Actualité fiscale" data-en="Tax news">Actualité fiscale</span>
+  <h1 data-fr="Ce qui change pour vous, chaque semaine" data-en="What is changing for you, every week">Ce qui change pour vous, chaque semaine</h1>
+  <p class="lead" data-fr="Les nouveautés fiscales qui touchent les particuliers, les entreprises et les fiducies au Québec et au Canada, résumées simplement, avec un lien vers la source." data-en="Tax developments affecting individuals, businesses and trusts in Quebec and Canada, summarized simply, with a link to the source.">Les nouveautés fiscales qui touchent les particuliers, les entreprises et les fiducies au Québec et au Canada, résumées simplement, avec un lien vers la source.</p>
+  <p class="lead" style="margin-top:8px;font-size:.9rem"><span data-fr="Dernière mise à jour :" data-en="Last updated:">Dernière mise à jour :</span> <strong id="maj"></strong></p>
+  <div class="filters" id="filters">
+   <button class="on" data-c="tout" data-fr="Tout" data-en="All">Tout</button>
+   <button data-c="particuliers" data-fr="Particuliers" data-en="Individuals">Particuliers</button>
+   <button data-c="entreprises" data-fr="Entreprises" data-en="Businesses">Entreprises</button>
+   <button data-c="fiducies" data-fr="Fiducies" data-en="Trusts">Fiducies</button>
+   <button data-c="taxes" data-fr="Taxes de vente" data-en="Sales tax">Taxes de vente</button>
+  </div>
+ </div>
+</section>
+
+<section style="padding-top:40px">
+ <div class="wrap">
+  <div class="news" id="news"><p>Chargement…</p></div>
+  <p class="note" id="note"></p>
+ </div>
+</section>
+
+<footer>
+ <div class="wrap">
+  <div class="foot">
+   <div><strong style="color:#fff">CFF CPA Inc.</strong><br><span data-fr="Comptable professionnel agréé" data-en="Chartered Professional Accountant">Comptable professionnel agréé</span></div>
+   <div class="logos"><img src="cff-logo.jpg" alt="CFF CPA Inc."><img src="cpa-quebec.png" alt="Comptables professionnels agréés du Québec"></div>
+  </div>
+  <small>© <span id="yr"></span> CFF CPA Inc. · NEQ 1181520959 · Membre de l'Ordre des comptables professionnels agréés du Québec</small>
+ </div>
+</footer>
+
+<script>
+document.getElementById('yr').textContent=new Date().getFullYear();
+var lang='fr';try{if(localStorage.getItem('cff-lang')==='en')lang='en';}catch(e){}
+var NOTE={fr:"Ces résumés sont fournis à titre d'information générale seulement et ne constituent pas un avis fiscal. Plusieurs mesures annoncées dans un budget sont des propositions qui doivent encore être adoptées. Pour une analyse de votre situation, <a href='index.html#contact'>communiquez avec nous</a>.",en:"These summaries are provided for general information only and do not constitute tax advice. Many budget measures are proposals that have not yet been enacted. For an analysis of your situation, <a href='index.html#contact'>contact us</a>."};
+var CATS={
+ particuliers:{fr:'Particuliers',en:'Individuals',bg:'#eaf1f8',fg:'#0A4D8C',svg:'<svg viewBox="0 0 120 110" xmlns="http://www.w3.org/2000/svg"><rect x="34" y="18" width="52" height="68" rx="6" fill="#fff" stroke="#0A4D8C" stroke-width="3"/><line x1="44" y1="38" x2="76" y2="38" stroke="#0A4D8C" stroke-width="3"/><line x1="44" y1="50" x2="76" y2="50" stroke="#99A6B2" stroke-width="3"/><line x1="44" y1="62" x2="66" y2="62" stroke="#99A6B2" stroke-width="3"/><circle cx="84" cy="74" r="16" fill="#0B8A3E"/><circle cx="84" cy="69" r="5" fill="#fff"/><path d="M75 83c2-6 16-6 18 0" fill="#fff"/></svg>'},
+ entreprises:{fr:'Entreprises',en:'Businesses',bg:'#e9f5ee',fg:'#0B8A3E',svg:'<svg viewBox="0 0 120 110" xmlns="http://www.w3.org/2000/svg"><rect x="22" y="40" width="34" height="52" fill="#fff" stroke="#0A4D8C" stroke-width="3"/><rect x="56" y="22" width="42" height="70" fill="#fff" stroke="#0A4D8C" stroke-width="3"/><g fill="#0B8A3E"><rect x="64" y="32" width="8" height="8"/><rect x="82" y="32" width="8" height="8"/><rect x="64" y="48" width="8" height="8"/><rect x="82" y="48" width="8" height="8"/><rect x="64" y="64" width="8" height="8"/><rect x="82" y="64" width="8" height="8"/></g><g fill="#99A6B2"><rect x="30" y="50" width="7" height="7"/><rect x="42" y="50" width="7" height="7"/><rect x="30" y="64" width="7" height="7"/><rect x="42" y="64" width="7" height="7"/></g><line x1="14" y1="92" x2="106" y2="92" stroke="#0A4D8C" stroke-width="3"/></svg>'},
+ fiducies:{fr:'Fiducies',en:'Trusts',bg:'#f1eef8',fg:'#4b3b8f',svg:'<svg viewBox="0 0 120 110" xmlns="http://www.w3.org/2000/svg"><path d="M60 14l32 12v24c0 22-14 36-32 44C42 86 28 72 28 50V26z" fill="#fff" stroke="#4b3b8f" stroke-width="3"/><circle cx="60" cy="48" r="9" fill="none" stroke="#0A4D8C" stroke-width="3"/><path d="M60 57v18M60 66h7M60 72h5" stroke="#0A4D8C" stroke-width="3" fill="none"/></svg>'},
+ taxes:{fr:'Taxes de vente',en:'Sales tax',bg:'#fdf3e6',fg:'#a35a00',svg:'<svg viewBox="0 0 120 110" xmlns="http://www.w3.org/2000/svg"><path d="M36 14h48v80l-8-6-8 6-8-6-8 6-8-6-8 6z" fill="#fff" stroke="#a35a00" stroke-width="3"/><text x="60" y="50" text-anchor="middle" font-family="Arial" font-weight="700" font-size="16" fill="#0A4D8C">TPS</text><text x="60" y="72" text-anchor="middle" font-family="Arial" font-weight="700" font-size="16" fill="#0B8A3E">TVQ</text></svg>'}
+};
+var MOIS={fr:['janvier','février','mars','avril','mai','juin','juillet','août','septembre','octobre','novembre','décembre'],en:['January','February','March','April','May','June','July','August','September','October','November','December']};
+function fmt(d){var p=d.split('-');var m=MOIS[lang][parseInt(p[1],10)-1],j=parseInt(p[2],10);return lang==='fr'?j+' '+m+' '+p[0]:m+' '+j+', '+p[0];}
+var DATA=null,CUR='tout';
+function render(){if(!DATA)return;var box=document.getElementById('news');var items=DATA.items.filter(function(i){return CUR==='tout'||i.cat===CUR;});
+ if(!items.length){box.innerHTML='<p>'+(lang==='fr'?'Aucune nouvelle dans cette catégorie pour le moment.':'No news in this category yet.')+'</p>';return;}
+ box.innerHTML=items.map(function(i){var c=CATS[i.cat]||CATS.particuliers;var t=(lang==='en'&&i.titre_en)?i.titre_en:i.titre;var x=(lang==='en'&&i.texte_en)?i.texte_en:i.texte;return '<article class="item"><div class="pic" style="background:'+c.bg+'">'+c.svg+'</div><div class="body"><div class="meta"><span class="chip" style="background:'+c.bg+';color:'+c.fg+'">'+c[lang]+'</span><span>'+fmt(i.date)+'</span></div><h2>'+t+'</h2><p>'+x+'</p><a class="src" href="'+i.url+'" target="_blank" rel="noopener">'+(lang==='en'?'Source: '+(i.source_en||i.source):'Source : '+i.source)+'</a></div></article>';}).join('');
+ document.getElementById('maj').textContent=fmt(DATA.maj);}
+function applyLang(){document.documentElement.lang=lang;document.querySelectorAll('[data-fr]').forEach(function(el){el.innerHTML=el.getAttribute('data-'+lang);});document.getElementById('langBtn').textContent=lang==='fr'?'EN':'FR';document.getElementById('note').innerHTML=NOTE[lang];document.title=lang==='fr'?'Actualité fiscale | CFF CPA Inc. : particuliers, entreprises et fiducies':'Tax news | CFF CPA Inc.: individuals, businesses and trusts';render();}
+function toggleLang(){lang=lang==='fr'?'en':'fr';try{localStorage.setItem('cff-lang',lang);}catch(e){}applyLang();}
+document.querySelectorAll('#filters button').forEach(function(b){b.addEventListener('click',function(){document.querySelectorAll('#filters button').forEach(function(x){x.classList.remove('on')});b.classList.add('on');CUR=b.getAttribute('data-c');render();});});
+applyLang();
+fetch('actualites.json',{cache:'no-store'}).then(function(r){return r.json()}).then(function(d){DATA=d;d.items.sort(function(a,b){return a.date<b.date?1:-1});render();}).catch(function(){document.getElementById('news').innerHTML='<p>Les actualités ne peuvent pas être affichées pour le moment.</p>';});
+</script>
+</body>
+</html>

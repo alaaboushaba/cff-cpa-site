@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cff-cpa.ca/sitemap.xml

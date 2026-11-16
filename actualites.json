@@ -1,0 +1,71 @@
+{
+ "maj": "2026-11-16",
+ "items": [
+  {
+   "date": "2026-11-05",
+   "cat": "particuliers",
+   "titre": "Budget fédéral 2026 : une date limite unique au 15 mai",
+   "texte": "Le budget fédéral déposé le 5 novembre 2026 propose de fixer au 15 mai la date limite de production des déclarations et de paiement du solde pour tous les particuliers, y compris les travailleurs autonomes, à compter de l'année d'imposition 2027. Il propose aussi de hausser le seuil des acomptes provisionnels de 3 000 $ à 7 500 $ (de 1 800 $ à 4 500 $ pour les résidents du Québec) à compter de 2028, puis de l'indexer. Il s'agit de propositions qui ne sont pas encore en vigueur.",
+   "source": "Finances Canada, Budget de 2026, chapitre 6",
+   "url": "https://budget.canada.ca/2026/report-rapport/chap6-fr.html",
+   "titre_en": "Federal Budget 2026: a single May 15 deadline",
+   "texte_en": "The federal budget tabled on November 5, 2026 proposes a single May 15 deadline to file returns and pay any balance owing for all individuals, including self-employed individuals, starting with the 2027 tax year. It also proposes raising the instalment threshold from $3,000 to $7,500 ($1,800 to $4,500 for Quebec residents) starting in 2028, then indexing it. These are proposals that are not yet in force.",
+   "source_en": "Finance Canada, Budget 2026, Chapter 6"
+  },
+  {
+   "date": "2026-11-05",
+   "cat": "entreprises",
+   "titre": "Budget fédéral 2026 : nouvel incitatif sur les gains en capital",
+   "texte": "Le budget propose un « Incitatif canadien à la croissance » : une exonération des gains en capital pouvant atteindre 15 M$ à la disposition d'actions admissibles d'une société privée sous contrôle canadien, pour les actions émises à compter du 5 novembre 2026 et avant 2037. Il propose aussi d'exonérer les sociétés privées sous contrôle canadien de l'impôt de la partie VI.1 sur les dividendes qu'elles versent à compter du jour du budget. Ces mesures sont des propositions.",
+   "source": "Finances Canada, Budget de 2026, Mesures fiscales : renseignements supplémentaires",
+   "url": "https://budget.canada.ca/2026/report-rapport/tm-mf-fr.html",
+   "titre_en": "Federal Budget 2026: new capital gains incentive",
+   "texte_en": "The budget proposes a Canada Growth Incentive: a capital gains exemption of up to $15 million on the disposition of qualifying shares of a Canadian-controlled private corporation, for shares issued from November 5, 2026 and before 2037. It also proposes to exempt Canadian-controlled private corporations from Part VI.1 tax on dividends they pay on or after budget day. These measures are proposals.",
+   "source_en": "Finance Canada, Budget 2026, Tax Measures: Supplementary Information"
+  },
+  {
+   "date": "2026-11-05",
+   "cat": "fiducies",
+   "titre": "Fiducies : distributions à des bénéficiaires non résidents resserrées",
+   "texte": "Le budget fédéral 2026 propose d'élargir la règle qui interdit le transfert en franchise d'impôt des biens d'une fiducie à des bénéficiaires non résidents aux distributions indirectes, par exemple à une société ou à une société de personnes qui compte un actionnaire ou un associé non résident. La mesure viserait les distributions effectuées à compter du 5 novembre 2026.",
+   "source": "Finances Canada, Budget de 2026, Mesures fiscales : renseignements supplémentaires",
+   "url": "https://budget.canada.ca/2026/report-rapport/tm-mf-fr.html",
+   "titre_en": "Trusts: tighter rules on distributions to non-resident beneficiaries",
+   "texte_en": "Federal Budget 2026 proposes to extend the rule that denies tax-deferred distributions of trust property to non-resident beneficiaries to indirect distributions, for example to a corporation or partnership with a non-resident shareholder or partner. The measure would apply to distributions made on or after November 5, 2026.",
+   "source_en": "Finance Canada, Budget 2026, Tax Measures: Supplementary Information"
+  },
+  {
+   "date": "2026-03-05",
+   "cat": "fiducies",
+   "titre": "Simples fiducies : déclaration T3 exigée à compter de 2026",
+   "texte": "L'ARC a confirmé que les simples fiducies n'avaient pas à produire la déclaration T3 ni l'annexe 15 pour l'année 2025. En revanche, certaines simples fiducies devront produire une déclaration pour les années d'imposition se terminant en 2026 et les années suivantes.",
+   "source": "Agence du revenu du Canada, conseil fiscal du 5 mars 2026",
+   "url": "https://www.canada.ca/content/canadasite/fr/agence-revenu/nouvelles/salle-presse/conseils-fiscaux/conseils-fiscaux-2026/modification-obligations-fiducies-matiere-declaration.html",
+   "titre_en": "Bare trusts: T3 return required starting in 2026",
+   "texte_en": "The CRA confirmed that bare trusts did not have to file a T3 return or Schedule 15 for 2025. However, certain bare trusts will have to file a return for tax years ending in 2026 and later years.",
+   "source_en": "Canada Revenue Agency, tax tip of March 5, 2026"
+  },
+  {
+   "date": "2026-11-05",
+   "cat": "taxes",
+   "titre": "TPS/TVH : services de massothérapie exonérés",
+   "texte": "Le budget fédéral 2026 propose d'ajouter les massothérapeutes admissibles à la liste des praticiens de la santé dont les services sont exonérés de la TPS/TVH, pour les fournitures effectuées après le jour du budget. Il s'agit d'une proposition.",
+   "source": "Finances Canada, Budget de 2026, Mesures fiscales : renseignements supplémentaires",
+   "url": "https://budget.canada.ca/2026/report-rapport/tm-mf-fr.html",
+   "titre_en": "GST/HST: massage therapy services exempt",
+   "texte_en": "Federal Budget 2026 proposes to add qualifying massage therapists to the list of health care practitioners whose services are exempt from GST/HST, for supplies made after budget day. This is a proposal.",
+   "source_en": "Finance Canada, Budget 2026, Tax Measures: Supplementary Information"
+  },
+  {
+   "date": "2026-03-18",
+   "cat": "particuliers",
+   "titre": "Québec : production automatique pour certains contribuables",
+   "texte": "Le budget du Québec 2026-2027 prévoit que Revenu Québec pourra produire la déclaration de revenus de certains particuliers à faible revenu sélectionnés, à compter de l'année d'imposition 2026. Revenu Québec leur transmettra d'abord les renseignements qu'il détient pour qu'ils puissent les vérifier, et le particulier pourra se retirer du processus tant qu'aucun avis de cotisation n'a été délivré. La mesure s'appliquera une fois le projet de loi sanctionné.",
+   "source": "Finances Québec, Budget 2026-2027, Renseignements additionnels, section A",
+   "url": "https://www.finances.gouv.qc.ca/Budget_et_mise_a_jour/budget/documents/Budget2627_RenseignementsAdd.pdf",
+   "titre_en": "Quebec: automatic filing for some taxpayers",
+   "texte_en": "The 2026-2027 Quebec budget provides that Revenu Québec may file the income tax return of certain selected low-income individuals, starting with the 2026 tax year. Revenu Québec will first send them the information it holds so they can review it, and individuals may opt out as long as no notice of assessment has been issued. The measure will apply once the bill is assented to.",
+   "source_en": "Finances Québec, Budget 2026-2027, Additional Information, Section A"
+  }
+ ]
+}
