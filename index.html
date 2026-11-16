@@ -114,7 +114,7 @@ body:not(.en) [data-en-only]{display:none}
  section{padding:60px 0}
 }
 </style>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "AccountingService", "name": "CFF CPA Inc.", "url": "https://cff-cpa.ca/", "logo": "https://cff-cpa.ca/cff-logo.jpg", "image": "https://cff-cpa.ca/cff-logo.jpg", "email": "boushaba@cff-cpa.ca", "telephone": "+1-438-345-1386", "description": "Cabinet de comptabilité et de fiscalité dirigé par un comptable professionnel agréé (CPA) : déclarations de revenus des particuliers, des sociétés et des fiducies, tenue de livres, TPS/TVQ, T4 et RL-1.", "areaServed": {"@type": "AdministrativeArea", "name": "Grand Montréal"}, "address": {"@type": "PostalAddress", "addressLocality": "Montréal", "addressRegion": "QC", "addressCountry": "CA"}, "knowsLanguage": ["fr", "en"], "identifier": {"@type": "PropertyValue", "name": "NEQ", "value": "1181520959"}, "hasOfferCatalog": {"@type": "OfferCatalog", "name": "Services", "itemListElement": [{"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Impôt des particuliers (T1, TP-1)"}}, {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Impôt des sociétés (T2, CO-17)"}}, {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Impôt des fiducies (T3, TP-646)"}}, {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Déclarations de sociétés en commandite (T5013, TP-600)"}}, {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Tenue de livres"}}, {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "TPS et TVQ"}}, {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Feuillets T4 et RL-1"}}, {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Consultation fiscale"}}]}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "AccountingService", "name": "CFF CPA Inc.", "url": "https://cff-cpa.ca/", "logo": "https://cff-cpa.ca/cff-logo.jpg", "image": "https://cff-cpa.ca/cff-logo.jpg", "email": "info@cff-cpa.ca", "telephone": "+1-438-345-1386", "description": "Cabinet de comptabilité et de fiscalité dirigé par un comptable professionnel agréé (CPA) : déclarations de revenus des particuliers, des sociétés et des fiducies, tenue de livres, TPS/TVQ, T4 et RL-1.", "areaServed": {"@type": "AdministrativeArea", "name": "Grand Montréal"}, "address": {"@type": "PostalAddress", "addressLocality": "Montréal", "addressRegion": "QC", "addressCountry": "CA"}, "knowsLanguage": ["fr", "en"], "identifier": {"@type": "PropertyValue", "name": "NEQ", "value": "1181520959"}, "hasOfferCatalog": {"@type": "OfferCatalog", "name": "Services", "itemListElement": [{"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Impôt des particuliers (T1, TP-1)"}}, {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Impôt des sociétés (T2, CO-17)"}}, {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Impôt des fiducies (T3, TP-646)"}}, {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Déclarations de sociétés en commandite (T5013, TP-600)"}}, {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Tenue de livres"}}, {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "TPS et TVQ"}}, {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Feuillets T4 et RL-1"}}, {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Consultation fiscale"}}]}}</script>
 </head>
 <body>
 
@@ -247,7 +247,7 @@ body:not(.en) [data-en-only]{display:none}
    <h2 data-fr="Parlons de votre dossier" data-en="Let's talk about your file">Parlons de votre dossier</h2>
    <p data-fr="Décrivez brièvement votre besoin. Nous vous répondons dans un délai d'un jour ouvrable." data-en="Briefly describe what you need. We reply within one business day.">Décrivez brièvement votre besoin. Nous vous répondons dans un délai d'un jour ouvrable.</p>
    <dl>
-    <div><dt data-fr="Courriel" data-en="Email">Courriel</dt><dd><a href="mailto:boushaba@cff-cpa.ca">boushaba@cff-cpa.ca</a></dd></div>
+    <div><dt data-fr="Courriel" data-en="Email">Courriel</dt><dd><a href="mailto:info@cff-cpa.ca">info@cff-cpa.ca</a></dd></div>
     <div><dt data-fr="Téléphone" data-en="Phone">Téléphone</dt><dd><a href="tel:+14383451386">438 345-1386</a></dd></div>
     <div><dd data-fr="Nous desservons la région du Grand Montréal." data-en="We serve the Greater Montreal area.">Nous desservons la région du Grand Montréal.</dd></div>
    </dl>
@@ -308,7 +308,7 @@ function sendMail(ev){
  var n=document.getElementById('n').value, e=document.getElementById('e').value,
      s=document.getElementById('s').value, m=document.getElementById('m').value;
  var body=(lang==='fr'?'Nom: ':'Name: ')+n+'\n'+(lang==='fr'?'Courriel: ':'Email: ')+e+'\n\n'+m;
- window.location.href='mailto:boushaba@cff-cpa.ca?subject='+encodeURIComponent('CFF CPA | '+s)+'&body='+encodeURIComponent(body);
+ window.location.href='mailto:info@cff-cpa.ca?subject='+encodeURIComponent('CFF CPA | '+s)+'&body='+encodeURIComponent(body);
  return false;
 }
 document.querySelectorAll('#menu a').forEach(function(a){a.addEventListener('click',function(){document.getElementById('menu').classList.remove('open');});});
